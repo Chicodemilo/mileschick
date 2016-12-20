@@ -1,0 +1,177 @@
+body {
+	background: black;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+#miles_image{
+	background:url('../images/lilmiles.jpg') -25px -50px;
+	position:fixed ;
+	top:-0px;
+	width:100%;
+	height: 2000px;
+	z-index:0;
+  	height:calc(100% + 150);
+  	background-size: calc(100% + 50px);
+  	z-index: 20;
+  	margin: 0px;
+  	background-repeat: no-repeat;
+  	overflow-y: scroll;
+}
+
+#full_name{
+	z-index: 75;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: calc(100vw - 55px);
+	padding:  10px;
+}
+
+#lines{
+	width: calc(100vw - 30px);
+}
+
+.hidden{display:none}
+
+.boxes{
+	width:  calc(100vw - 20px);
+	border: 1px solid orange;
+	background: rgba(0, 0, 0, .5);
+	font-family: 'Economica', sans-serif;
+	font-size: 1.5vw;
+	padding: 0px;
+	overflow-y: hidden;
+}
+
+.title_box{
+	float: left;
+	overflow-y: hidden;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 10px;
+	border-right: 2px solid #3F3F3F;
+	font-size: 3em;
+	line-height: .9;
+
+}
+
+.content_box{
+	color: white;
+	font-size: 3.3em;
+	line-height: 1.3em;
+	padding: 10px 10px 10px 0px;
+	overflow-y: scroll;
+}
+
+#film_overlay{
+	width: 100%;
+	height: 2000px;
+	background: url('../images/film_overlay.png');
+	background-blend-mode: multiply;
+	background-size: 100%;
+	opacity: .2;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+
+.words{
+	display: inline-block;
+	height: 11vw;
+}
+
+#links{
+	color: white;
+	font-family: sans-serif;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 5px;
+}
+
+.inline_links{
+	display: inline-block;
+	width: 27vw;
+	height: 2vw;
+	/* border: 1px dotted #707070; */
+	font-family: 'Economica', sans-serif;
+	font-size: 4.5vw;
+	cursor: pointer;
+	transition: color 0.4s ease;
+	margin-left: -3px;
+}
+
+.inline_links:hover{
+	color: #FFD97F;
+}
+.inline_links:active{
+	color: #FF9E00;
+}
+
+#m_letter{
+	position: relative;
+	left: 2000px;
+	opacity: .0;
+}
+
+#i_letter{
+	position: relative;
+	top: 1000px;
+	opacity: .0;
+}
+
+#l_letter{
+	position: relative;
+	left: 1000px;
+	opacity: .0;
+}
+
+#e_letter{
+	position: relative;
+	right: 1000px;
+	opacity: .0;
+}
+
+#s_letter{
+	position: relative;
+	top: -200px;
+	opacity: .0;
+}
+
+
+#c_letter{
+	position: relative;
+	top: 500px;
+	opacity: .0;
+}
+
+#h_letter{
+	position: relative;
+	top: 1000px;
+	opacity: .0;
+}
+
+#i2_letter{
+	position: relative;
+	left: 1000px;
+	opacity: .0;
+}
+
+#c2_letter{
+	position: relative;
+	right: 1000px;
+	opacity: .0;
+}
+
+#k_letter{
+	position: relative;
+	top: -200px;
+	opacity: .0;
+}
+
+
