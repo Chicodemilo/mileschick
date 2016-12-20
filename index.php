@@ -12,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
 
     <link rel='stylesheet' media='only screen and (min-width: 976px)' href='css/mileschick.css' />
-    <link rel='stylesheet' media='only screen and (max-width: 957px)' href='css/lil_mileschick.css' />
+    <link rel='stylesheet' media='only screen and (max-width: 975px)' href='css/lil_mileschick.css' />
+    <link rel='stylesheet' media='only screen and (max-width: 600px)' href='css/tiny_mileschick.css' />
    <!--
 	***************** HELLO! *******************
 
@@ -85,7 +86,7 @@
 					?>
 				</div>
 				<div class="content_box">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br><br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
 					<ul>
 						  <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
@@ -115,6 +116,19 @@
 							echo "CONTACT<br>";
 						}
 					?>
+				</div>
+				<div class="content_box">
+					WHAT'S YOUR NAME:
+					<input type="text" name="name">
+					WHAT'S YOUR EMAIL:
+					<input type="text" name="name">
+					WHAT'S YOU NEEDIN':					
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					<button type="submit" name="submit" id="submit">SEND</button>
+					<div class="feedback">
+						
+					</div>
+
 				</div>
 			</div>
 		</div>

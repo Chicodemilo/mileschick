@@ -29,14 +29,14 @@ body {
 }
 
 #lines{
-	width: calc(100vw - 30px);
+	width: calc(75vw - 30px);
 }
 
 .hidden{display:none}
 
 .boxes{
 	width:  calc(100vw - 20px);
-	border: 1px solid orange;
+	border: 1px solid #FF9E00;
 	background: rgba(0, 0, 0, .5);
 	font-family: 'Economica', sans-serif;
 	font-size: 1.5vw;
@@ -51,14 +51,14 @@ body {
 	padding-left: 5px;
 	margin-right: 10px;
 	border-right: 2px solid #3F3F3F;
-	font-size: 3em;
+	font-size: 1.8em;
 	line-height: .9;
 
 }
 
 .content_box{
 	color: white;
-	font-size: 3.3em;
+	font-size: 1.7em;
 	line-height: 1.3em;
 	padding: 10px 10px 10px 0px;
 	overflow-y: scroll;
@@ -96,18 +96,18 @@ body {
 
 .inline_links{
 	display: inline-block;
-	width: 27vw;
-	height: 2vw;
+	width: 22vw;
+	height: 1.7vw;
 	/* border: 1px dotted #707070; */
 	font-family: 'Economica', sans-serif;
-	font-size: 4.5vw;
+	font-size: 2.9vw;
 	cursor: pointer;
 	transition: color 0.4s ease;
 	margin-left: -3px;
 }
 
 .inline_links:hover{
-	color: #FFD97F;
+	color: #FF9E00;
 }
 .inline_links:active{
 	color: #FF9E00;

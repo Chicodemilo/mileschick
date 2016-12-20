@@ -83,7 +83,7 @@ $(document).ready(function() {
 	}
 
 	function reveal_links(){
-		$('#links').fadeIn(1000);
+		$('#links').fadeIn(2000);
 	}
 
 
