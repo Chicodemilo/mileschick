@@ -48,13 +48,37 @@ body {
 .title_box{
 	float: left;
 	overflow-y: hidden;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding: 0px;
 	margin-right: 10px;
-	border-right: 2px solid #3F3F3F;
 	font-size: 1.2em;
-	line-height: .9;
+	color: #A14D02;
+}
 
+.color_boxes_one{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	width: 100%;
+	background-color: #DF7E01;
+	box-sizing: border-box;
+}
+
+.color_boxes_two{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	width: 100%;
+	background-color: #FD9004;
+	box-sizing: border-box;
+}
+
+.color_boxes_three{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	width: 100%;
+	background-color: #D86703;
+	box-sizing: border-box;
 }
 
 .content_box{
@@ -97,6 +121,9 @@ body {
 
 .inline_links{
 	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: -20px;
 	width: 11.5vw;
 	height: 2vw;
 	/* border: 1px dotted #707070; */
@@ -112,6 +139,27 @@ body {
 }
 .inline_links:active{
 	color: #FF9E00;
+}
+
+a {
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+a:link {
+	color: #FFC972;
+}
+
+a:visited {
+	color: #FFC972;
+}
+
+a:hover {
+	color: #FF9E00;
+}
+
+a:active {
+	color: #F27006;
 }
 
 #m_letter{
@@ -224,10 +272,26 @@ button:active{
 .feedback{
 	display: none;
 	font-size: .9em;
-	color: #A00002;
+	line-height: 1em;
+	color: #FC0407;
 	padding-top: 15px;
+}
+
+.under_feedback{
+	width: 100%;
+	height: 100px;
 }
 
 #last_name{
 	display: none;
+}
+
+.site_description{
+	font-size: .8em;
+	color: #FFE5BF;
+	line-height: .8em;
+}
+
+li{
+	margin-top: 20px;
 }

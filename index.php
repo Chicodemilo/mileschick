@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="Miles Chick Portfolio Web Development Acting">
-	<meta name="description" content="Hello World, This is the personal web site for Miles Chick, who among other things, is a developer living in Austin Texas.  You may be here to looking for Miles Chick the actor.  Well, we're the same person, look for the ACTING link on the page and you'll see some of that stuff there.">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<meta name="keywords" content="Miles Chick Web Developer Austin">
+	<meta name="description" content="Hello World, This is the personal web site for Miles Chick, who among other things, is a web developer living in Austin Texas.">
 	<title>M I L E S * C H I C K</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/mileschick.js"></script>
@@ -27,7 +28,7 @@
 
 	Finally, let me say about myself, I'm probably the most well rounded developer you're looking at.  
 
-	I don't mean that in a, "I know the most languages" way. I mean it in the breadth of my experience, I've been in sales, I've run my own company (and still do), I've been a teacher, I've been a carpenter, I've been a reporter, I've been a disk jockey, I've been an actor (and still am). My point is, I know how to survive in lots of different situations, I understand how businesses work, and I know that the key to success lies in the attitude you have when you approach a problem. And if business can be distiled in to one sentence it's, "Solve problems to get sales." Feel free to credit me when you use that.  So, I'm a person that writes code that also understands the big picture and how the tech fits into it.  And that's an intangible you probably won't find with others.
+	I don't mean that in a, "I know the most languages" way. I mean it in the breadth of my experience, I've been in sales, I've run my own company (and still do), I've been a teacher, I've been a carpenter, I've been a reporter, I've been a disk jockey, I've been an actor (and still am). My point is, I know how to survive in lots of different situations, I understand how businesses work, and I know that the key to success lies in the attitude you have when you approach a problem. And if business can be distiled in to one sentence it's, "Solve problems to get sales." Feel free to credit me when you use that.  So, I'm a person that writes code that also understands the big picture and how the tech fits into it.  And that's an intangible you probably won't find with others
 
 	*************** GOODBYE! *********************
 
@@ -67,45 +68,59 @@
 				<div class="title_box">
 					<?php 
 						for ($i=0; $i < 150; $i++) { 
-							echo "ABOUT<br>";
+							echo "<div class='color_boxes_one'>ABOUT</div>";
+							echo "<div class='color_boxes_two'>ABOUT</div>";
+							echo "<div class='color_boxes_three'>ABOUT</div>";
 						}
 					?>
 				</div>
 				<div class="content_box">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br><br>
+					Hey, I'm Miles, and I've worn a lot of hats in my days. But the main focus of this site is to showcase my web development so if you know me as something other than a developer, well, I'm the same guy, but that's not what this site is about.<br><br>
 
-					didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br><br>
+					I jumped into making websites when I couldn't find a developer for my businesses that wasn't cynical. All I heard was, "Uhhh, I don't think you can do that.' or 'Uhhh, that's too hard.'<br><br>
+
+					So I learned how to do this on my own and now I've got many years under my belt. So if you're looking to hire me or if you have an idea and want to hash it out with a developer, I'm your guy. I really dig new ideas. If you're in Austin, use the contact form and we can go have coffee and talk it out.<br><br>
 				</div>
 			</div>
 			<div id="box_two" class="hidden boxes">
 				<div class="title_box">
 					<?php 
 						for ($i=0; $i < 150; $i++) { 
-							echo "WEB DEV<br>";
+							echo "<div class='color_boxes_one'>WEB DEVO</div>";
+							echo "<div class='color_boxes_two'>WEB DEVO</div>";
+							echo "<div class='color_boxes_three'>WEB DEVO</div>";
 						}
 					?>
 				</div>
 				<div class="content_box">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+					All the sites below were written front to back by me. And in most cases I designed them.<br><br>
+
+					PHP is my prefered backend language, although I've done some work with python too. My prefered MCV frame-work is Codeigniter. Jquery is a friend of mine but for some of the more complex animations, I dug into create.js.
+
+					<br><br>Here's my <a href="https://github.com/Chicodemilo" target="blank" alt="miles repo">github repo</a> althought a lot of my work needs to be in private repos - saftey first.
 
 					<ul>
-						  <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-						  <li>Aliquam tincidunt mauris eu risus.</li>
-						  <li>Vestibulum auctor dapibus neque.</li>
-						  <li>Nunc dignissim risus id metus.</li>
-						  <li>Cras ornare tristique elit.</li>
-						  <li>Vivamus vestibulum nulla nec ante.</li>
-						  <li>Praesent placerat risus quis eros.</li>
-						  <li>Fusce pellentesque suscipit nibh.</li>
-						  <li>Integer vitae libero ac risus egestas placerat.</li>
-						  <li>Vestibulum commodo felis quis tortor.</li>
-						  <li>Ut aliquam sollicitudin leo.</li>
-						  <li>Cras iaculis ultricies nulla.</li>
-						  <li>Donec quis dui at dolor tempor interdum.</li>
-						  <li>Vivamus molestie gravida turpis.</li>
-						  <li>Fusce lobortis lorem at ipsum semper sagittis.</li>
-						  <li>Nam convallis pellentesque nisl.</li>
-						  <li>Integer malesuada commodo nulla.</li>
+						  <li>
+						  	<a href="https://www.greatsite.apartments" target="blank">greatsite.apartments</a><br>
+						  	<span class="site_description">This is really like 8 sites in one. After a customer buys the service, their businesses' site is auto-created. They can then login and admin their new site and use any of the templates - so I made all of the templates on the site too. Pretty complex backend. Also, dig the cool Sales Register at the bottom of the page.</span>
+
+						  </li>
+						  <li>
+						  	<a href="http://www.abileneseniorsmagazine.com" target="blank">abileneseniorsmagazine.com</a><br>
+						  	<span class="site_description">Look at the animation on the index page... I took an old postcard of downtown Abilene and made the flag wave, birds fly, and cars drive up and down the main street. And I also designed the logo that is currently being used on the magazine.</span>
+
+						  </li>
+						  <li>
+						  	<a href="https://www.sanangelo.apartments" target="blank">sanangelo.apartments</a><br>
+						  	<span class="site_description">Site visitors have tools for searching for an apartment, advertisers have a backend to admin their pages, and the site owner has tools add, edit or delete everything else. At first glance it seems simple, but there's a lot going on here with the backend. Oh, the blog on the site writes itself - crazy huh?!?</span>
+
+						  </li>
+						  <li>
+						  	<a href="localhost/greatsite.apartments" target="blank">gardener-austin.com</a><br>
+						  	<span class="site_description">I was hired to make this 'Coming Soon' site for a restaurant. They were in a time crunch, I think most things in the restaurant industry are under a time crunch. It's hosted on my site because the restaurant isn't coming soon any more. A pretty site... I was handed PDFs from a designer and kicked it out super fast.</span>
+
+						  </li>
+						  
 					</ul>
 				</div>
 			</div>
@@ -113,7 +128,9 @@
 				<div class="title_box">
 					<?php 
 						for ($i=0; $i < 150; $i++) { 
-							echo "CONTACT<br>";
+							echo "<div class='color_boxes_one'>CONTACT</div>";
+							echo "<div class='color_boxes_two'>CONTACT</div>";
+							echo "<div class='color_boxes_three'>CONTACT</div>";
 						}
 					?>
 				</div>
@@ -128,6 +145,9 @@
 					<button type="submit" name="submit" id="submit">SEND</button>
 					<div class="feedback">
 						
+					</div>
+					<div class="under_feedback">
+						&nbsp;
 					</div>
 
 				</div>
