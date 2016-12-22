@@ -140,5 +140,29 @@ $(document).ready(function() {
 		$('#box_three').slideUp("2000");
 	});
 
+	$("#submit").click(function(){
+
+
+            var vname = $("#name").val();
+            var honeypot = $("#last_name").val();
+            var vemail = $("#email").val();
+            var vmessage = $('#message').val();
+            
+            if(honeypot.length < 1){
+            	$.post('submit.php',{phpname:vname,phpemail:vemail,phpmessage:vmessage}, function(data){
+            		// alert("working here");
+	                $('.feedback').hide();
+	                $('.feedback').fadeIn('slow').html(data);
+	                document.getElementById('name').value = '';
+	                document.getElementById('email').value = '';
+	                document.getElementById('message').value = '';
+	            });
+            }else{
+            	 $('.feedback').fadeIn('slow').html("Honeypot, honeypot, dumb robot got tricked by the honeypot.");
+            }
+
+
+        });
+
 
 });

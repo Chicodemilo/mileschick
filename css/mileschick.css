@@ -208,7 +208,26 @@ button{
 	font-family: 'Economica', sans-serif;
 	font-size: 1.1em;
 	margin-left: 30px;
-
+	transition: .3s;
 }
 
+button:focus {outline:0;}
 
+button:hover{
+	background: #FFC000;
+}
+
+button:active{
+	background: #F28100;
+}
+
+.feedback{
+	display: none;
+	font-size: .9em;
+	color: #A00002;
+	padding-top: 15px;
+}
+
+#last_name{
+	display: none;
+}

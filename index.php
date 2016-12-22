@@ -119,11 +119,12 @@
 				</div>
 				<div class="content_box">
 					WHAT'S YOUR NAME:
-					<input type="text" name="name">
+					<input type="text" name="name" id="name" maxlength="65">
+					<input type="text" name="last_name" id="last_name" value="">
 					WHAT'S YOUR EMAIL:
-					<input type="text" name="name">
+					<input type="text" name="email" id="email" maxlength="50">
 					WHAT'S YOU NEEDIN':					
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					<textarea name="message" id="message" cols="30" rows="10" maxlength="400"></textarea>
 					<button type="submit" name="submit" id="submit">SEND</button>
 					<div class="feedback">
 						
