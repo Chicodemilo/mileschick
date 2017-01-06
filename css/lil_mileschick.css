@@ -38,19 +38,20 @@ body {
 	width:  calc(100vw - 20px);
 	border: 1px solid #FF9E00;
 	background: rgba(0, 0, 0, .5);
-	font-family: 'Economica', sans-serif;
-	font-size: 1.5vw;
 	padding: 0px;
 	overflow-y: hidden;
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 16pt;
+	letter-spacing: .07em;
 }
 
 .title_box{
 	float: left;
 	overflow-y: hidden;
 	margin-right: 10px;
-	font-size: 1.8em;
-	line-height: .9;
-	color: #A14D02;
+	line-height: 1;
+	color: #622E01;
+	font-family: 'Economica', sans-serif;
 }
 
 .color_boxes_one{
@@ -58,7 +59,7 @@ body {
 	padding-right: 10px;
 	margin: 0px;
 	width: 100%;
-	background-color: #DF7E01;
+	background-color: rgba(0, 0, 0, .7);
 	box-sizing: border-box;
 }
 
@@ -82,8 +83,8 @@ body {
 
 .content_box{
 	color: white;
-	font-size: 1.7em;
 	line-height: 1.3em;
+	font-size: 1.2em;
 	padding: 10px 10px 10px 0px;
 	overflow-y: scroll;
 }
@@ -143,6 +144,7 @@ body {
 a:link {
 	color: #FFC972;
 	text-decoration: none;
+	font-family: 'Economica', sans-serif;
 	transition: .4s;
 }
 
@@ -283,11 +285,11 @@ button:active{
 }
 
 .site_description{
-	font-size: .8em;
+	font-size: .9em;
 	color: #FFE5BF;
 	line-height: .8em;
 }
 
 li{
-	margin-top: 20px;
+	margin-top: 60px;
 }

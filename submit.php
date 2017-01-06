@@ -7,7 +7,7 @@ $message = $_POST['phpmessage'];
 
 if($name && $email && $message){
     
-    $con = mysqli_connect('localhost', 'root', 'test', 'mileschick');
+    $con = mysqli_connect('localhost', 'user42xy', 'howie4213peepeela', 'mileschick');
 
     if (! $con){
         echo ('Could Not Connect To Database');

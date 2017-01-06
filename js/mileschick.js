@@ -1,34 +1,34 @@
 $(document).ready(function() {
 
-	var movementStrength = 35;
-	var height = movementStrength / $(window).height();
-	var width = movementStrength / $(window).width();
-	var tot_width = $(window).width();
+	// var movementStrength = 35;
+	// var height = movementStrength / $(window).height();
+	// var width = movementStrength / $(window).width();
+	// var tot_width = $(window).width();
 
-	if(tot_width > 975){
-		$("#miles_image").mousemove(function(e){
-	          var pageX = e.pageX - ($(window).width() / 2);
-	          var pageY = e.pageY - ($(window).height() / 2);
-	          var newvalueX = width * pageX * -1 - 25;
-	          var newvalueY = height * pageY * -1 - 50;
-	          $('#miles_image').css("background-position", newvalueX+"px     "+newvalueY+"px");
-		});
-		$("#box").mousemove(function(e){
+	// if(tot_width > 975){
+	// 	$("#miles_image").mousemove(function(e){
+	//           var pageX = e.pageX - ($(window).width() / 2);
+	//           var pageY = e.pageY - ($(window).height() / 2);
+	//           var newvalueX = width * pageX * -1 - 25;
+	//           var newvalueY = height * pageY * -1 - 50;
+	//           $('#miles_image').css("background-position", newvalueX+"px     "+newvalueY+"px");
+	// 	});
+	// 	$("#box").mousemove(function(e){
 
-	          var pageX = e.pageX - ($(window).width() / 2);
-	          var pageY = e.pageY - ($(window).height() / 2);
-	          var newvalueX = width * pageX * -1 - 25;
-	          var newvalueY = height * pageY * -1 - 50;
-	          $('#miles_image').css("background-position", newvalueX+"px     "+newvalueY+"px");
-		});
-		$("#box_svg").mousemove(function(e){
-	          var pageX = e.pageX - ($(window).width() / 2);
-	          var pageY = e.pageY - ($(window).height() / 2);
-	          var newvalueX = width * pageX * -1 - 25;
-	          var newvalueY = height * pageY * -1 - 50;
-	          $('#miles_image').css("background-position", newvalueX+"px     "+newvalueY+"px");
-		});
-	}
+	//           var pageX = e.pageX - ($(window).width() / 2);
+	//           var pageY = e.pageY - ($(window).height() / 2);
+	//           var newvalueX = width * pageX * -1 - 25;
+	//           var newvalueY = height * pageY * -1 - 50;
+	//           $('#miles_image').css("background-position", newvalueX+"px     "+newvalueY+"px");
+	// 	});
+	// 	$("#box_svg").mousemove(function(e){
+	//           var pageX = e.pageX - ($(window).width() / 2);
+	//           var pageY = e.pageY - ($(window).height() / 2);
+	//           var newvalueX = width * pageX * -1 - 25;
+	//           var newvalueY = height * pageY * -1 - 50;
+	//           $('#miles_image').css("background-position", newvalueX+"px     "+newvalueY+"px");
+	// 	});
+	// }
 	
 
 
