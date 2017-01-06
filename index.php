@@ -55,9 +55,9 @@
 	<div id="miles_image">
 		
 		
-		<div id="film_overlay">
+		<!-- <div id="film_overlay"> -->
 			<!-- <img src="images/film_overlay.png" alt="film overlay"> -->
-		</div>
+		<!-- </div> -->
 		<div id="full_name">
 			<div id="miles_name">
 				<object data="images/letters/m.svg" type="image/svg+xml" class="words" id="m_letter"></object>	
