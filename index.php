@@ -95,7 +95,7 @@
 					Hello,<br><br>
 					I'm Miles Chick and I'm a Web Developer in Austin, Texas.<br><br>
 
-					New ideas are exciting aren't they?  I enjoy mulling them over, working on them and (possibly/hopefully) bringing them into existance.<br><br>
+					Ideas are exciting aren't they?<br><br>
 
 					The reason I became a web developer is so that I could scheme and plot and make things that haven't been made. <br><br>
 
