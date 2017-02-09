@@ -31,6 +31,7 @@ $(document).ready(function() {
 	// }
 	
 
+//this moves the letters
 
 	function letter_mover(){
 		
