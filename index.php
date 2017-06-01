@@ -95,11 +95,9 @@
 					Hello,<br><br>
 					I'm Miles Chick and I'm a Web Developer in Austin, Texas.<br><br>
 
-					Ideas are exciting aren't they?<br><br>
+					The reason I became a web developer is so that I could make things that haven't been made yet. I like building new things.<br><br>
 
-					The reason I became a web developer is so that I could scheme and plot and make things that haven't been made. <br><br>
-
-					So if you're looking to hire me here's what you need to know... <br><br>
+					If you're looking to work with me here's what you need to know... <br><br>
 					I've worn enough hats in my life to be a 'Big Picture' developer.  I've owned and run busnesses and I can probably 'get' what you're trying to achieve.  And I'll, most likely, match your level of excitement.  <br><br>
 
 					So let's talk about what I can bring to your business, or even if you have an idea and just want to hash it out with a developer, I'm your guy. Like I said, I really dig new ideas. If you're in Austin, use the contact form and we can go have coffee.<br><br>
@@ -118,11 +116,11 @@
 				<div class="content_box">
 					All the sites below were written front to back by me. And in most cases I designed them.<br><br>
 
-					PHP is my prefered backend language, although I've done some work with python too.<br><br>
+					PHP is my prefered backend language.<br><br>
 
 					My prefered MCV frame-work is CodeIgniter.<br><br>
 
-					Jquery is a friend of mine but for some of the more complex animations, I dug into create.js.
+					Jquery is a friend of mine but for some of the more complex animations, I've used create.js.
 
 					<br><br>Here's my <a href="https://github.com/Chicodemilo" target="blank" alt="miles repo">github repo</a> althought a lot of my work needs to be in private repos - saftey first.
 
