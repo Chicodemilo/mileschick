@@ -112,10 +112,12 @@
                         <li>React-Native</li>
                         <li>Webpack & Babel</li>
                         <li>Redux (though I like Mobx way more)</li>
-                        <li>SQL</li>
-                        <li></li>
-
+                        <li>Database Design and SQL</li>
+                        <li>Linux, Centos, Nginx</li>
+                        <li>Trained in SEO and UX</li>
                     </ul>
+
+                    Currently I'm a lead full-stack developer. I managing a team of 6 developers... keeping them on track and un-blocked all while finishing my own tickets.
 
                     Also... <br><br>
                     I've worn enough hats in my life to be a 'Big Picture' developer. I've owned and run businesses and I can probably get what you're trying to achieve. <br><br>
@@ -137,29 +139,27 @@
                     All the sites below were written front to back by me. And in most cases I designed them.<br><br>
 
                     <br><br>Here's my <a href="https://github.com/Chicodemilo" target="blank" alt="miles repo">github repo</a> although a lot of my work needs to be in private repos - safety first.
-
                     <ul>
                         <li>
-                            <a href="https://www.greatsite.apartments" rel="nofollow" target="blank">greatsite.apartments</a><br>
-                            <span class="site_description">This is really like 8 sites in one. After a customer buys the service, their apartment communities' website is auto-created. They can then login and admin their new site and use any of the templates - so I made all of the templates on the site too. Pretty complex backend. Also, dig the cool JS Sales Register at the bottom of the page.</span>
-
-                        </li>
-                        <li>
-                            <a href="http://www.abileneseniorsmagazine.com" rel="nofollow" target="blank">abileneseniorsmagazine.com</a><br>
-                            <span class="site_description">Look at the animation on the index page... I took an old postcard of downtown Abilene and made the flag wave, birds fly, and cars drive up and down the main street. And I also designed the logo that is currently being used on the magazine.</span>
-
-                        </li>
-                        <li>
-                            <a href="https://www.sanangelo.apartments" rel="nofollow" target="blank">sanangelo.apartments</a><br>
-                            <span class="site_description">Site visitors have tools for searching for an apartment, advertisers have a backend to admin their pages, and the site owner has tools add, edit or delete everything else. At first glance it seems simple, but there's a lot going on here with the backend. Oh, the blog on the site writes itself - crazy huh?!?</span>
-
+                            <a href="https://apps.apple.com/us/app/hooptrac/id1488320668?ls=1" rel="nofollow" target="blank">HoopTrac App</a><br>
+                            <span class="site_description">A super cool basketball stat tracking app. I made the app with React-Native and backend is a Laravel API</span>
                         </li>
                         <li>
                             <a href="gardner-austin/index.php" rel="nofollow" target="blank">gardner-austin.com</a><br>
                             <span class="site_description">I was hired to make this 'Coming Soon' site for a restaurant. They were under a time crunch, I think most things in the restaurant industry are under a time crunch. It's hosted on my site because the restaurant isn't coming soon any more. A pretty site... I was handed PDFs from a designer and kicked it out super fast.</span>
-
                         </li>
-
+                        <li>
+                            <a href="https://www.greatsite.apartments" rel="nofollow" target="blank">greatsite.apartments</a><br>
+                            <span class="site_description">This is really like 8 sites in one. After a customer buys the service, their apartment communities' website is auto-created. They can then login and admin their new site and use any of the templates - so I made all of the templates on the site too. Pretty complex backend. Also, dig the cool JS Sales Register at the bottom of the page.</span>
+                        </li>
+                        <li>
+                            <a href="http://www.abileneseniorsmagazine.com" rel="nofollow" target="blank">abileneseniorsmagazine.com</a><br>
+                            <span class="site_description">Look at the animation on the index page... I took an old postcard of downtown Abilene and made the flag wave, birds fly, and cars drive up and down the main street. And I also designed the logo that is currently being used on the magazine.</span>
+                        </li>
+                        <li>
+                            <a href="https://www.sanangelo.apartments" rel="nofollow" target="blank">sanangelo.apartments</a><br>
+                            <span class="site_description">Site visitors have tools for searching for an apartment, advertisers have a backend to admin their pages, and the site owner has tools add, edit or delete everything else. At first glance it seems simple, but there's a lot going on here with the backend. Oh, the blog on the site writes itself - crazy huh?!?</span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -188,14 +188,10 @@
                     <div class="under_feedback">
                         &nbsp;
                     </div>
-
                 </div>
             </div>
         </div>
-
     </div>
-
-
 </body>
 
 </html>
