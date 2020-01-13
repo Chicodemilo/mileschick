@@ -99,28 +99,29 @@
                     Hello,<br><br>
                     I'm Miles Chick and I'm a developer in Austin, Texas.<br><br>
 
-                    I became a developer is so that I could make things that haven't been made yet. I like building new things.<br><br>
+                    I became a developer is so that I could make things that haven't been made yet. I enjoy building new things.<br><br>
 
-                    Things I know:
-                    <ul>
+                    Stuff I know:
+                    <ul class="knowList">
                         <li>PHP 5-7</li>
                         <li>Javascript up to es6</li>
                         <li>HTML, CSS and Sass</li>
                         <li>Restful API Design</li>
-                        <li>MVC Frameworks Laravel, CodeIgniter, Symphony</li>
+                        <li>MVC Frameworks Lara, CodeIgniter, Symfony</li>
                         <li>React & Angular</li>
                         <li>React-Native</li>
                         <li>Webpack & Babel</li>
-                        <li>Redux (though I like Mobx way more)</li>
+                        <li>Redux (though I like MobX way more)</li>
                         <li>Database Design and SQL</li>
-                        <li>Linux, Centos, Nginx</li>
+                        <li>Linux, CentOS, Nginx</li>
+                        <li>ORMs like Doctrine and Eloquent</li>
                         <li>Trained in SEO and UX</li>
                     </ul>
+                    <br>
+                    Currently I'm a lead full-stack developer. I manage a team of 6 developers... keeping them on track and un-blocked all while finishing my own tickets.<br><br>
 
-                    Currently I'm a lead full-stack developer. I managing a team of 6 developers... keeping them on track and un-blocked all while finishing my own tickets.
-
-                    Also... <br><br>
-                    I've worn enough hats in my life to be a 'Big Picture' developer. I've owned and run businesses and I can probably get what you're trying to achieve. <br><br>
+                    Also... <br>
+                    I've worn enough hats in my life to be a 'Big Picture' developer. I've owned and run businesses - I can probably get what you're trying to achieve. <br><br>
 
                     So let's talk about what I can bring to your business, or even if you have an idea and just want to hash it out with a developer, I'm your guy. Like I said, I like new ideas. If you're in Austin, use the contact form and we can get together.<br><br>
                 </div>
